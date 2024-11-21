@@ -19,53 +19,84 @@ const app = {
     isRepeat: false,
     song: [
         {
-        name: 'Đừng làm trái tim anh đau',
-        singer: 'Sơn Tùng MTV',
+        name: 'Vạn sự tùy duyên',
+        singer: 'Thanh Hưng',
         path: './assets/music/song1.mp3',
         img: './assets/img/img1.jpg'
     },
     {
-        name: 'Thương thì về đây',
-        singer: 'Tiến Tới',
+        name: 'Hứa đợi nhưng chẳng tới',
+        singer: 'Lâm Tuấn',
         path: './assets/music/song2.mp3',
         img: './assets/img/img2.jpg'
     },
     {
-        name: 'Hôn lễ của anh',
-        singer: 'Tuệ Ny',
+        name: 'Tiếng Pháo Tiễn Người',
+        singer: 'Hùng Quân',
         path: './assets/music/song3.mp3',
         img: './assets/img/img3.jpg'
     },
     {
-        name: 'Giờ không cưới khi nào cưới',
-        singer: 'Hồng Quân',
+        name: 'Như Anh Đã Thấy Em',
+        singer: 'PhucXp x Orinn',
         path: './assets/music/song4.mp3',
         img: './assets/img/img4.jpg'
     },
     {
-        name: 'Đừng làm trái tim anh đau',
-        singer: 'Sơn Tùng MTV',
-        path: './assets/music/song1.mp3',
-        img: './assets/img/img1.jpg'
+        name: 'Kỳ Vọng Sai Lầm',
+        singer: ' Nguyễn Đình Vũ x Tăng Phúc x Yuno BigBoi',
+        path: './assets/music/song5.mp3',
+        img: './assets/img/img5.jpg'
     },
     {
-        name: 'Thương thì về đây',
-        singer: 'Tiến Tới',
-        path: './assets/music/song2.mp3',
-        img: './assets/img/img2.jpg'
+        name: 'Nơi Vực Nơi Trời',
+        singer: ' Lê Bảo Bình',
+        path: './assets/music/song6.mp3',
+        img: './assets/img/img6.jpg'
     },
     {
-        name: 'Hôn lễ của anh',
-        singer: 'Tuệ Ny',
-        path: './assets/music/song3.mp3',
-        img: './assets/img/img3.jpg'
+        name: 'Mây x Gió ( Mashup )',
+        singer: 'JanK ft. Sỹ Tây x Quanvrox',
+        path: './assets/music/song7.mp3',
+        img: './assets/img/img7.jpg'
     },
     {
-        name: 'Giờ không cưới khi nào cưới',
-        singer: 'Hồng Quân',
-        path: './assets/music/song4.mp3',
-        img: './assets/img/img4.jpg'
-    }],
+        name: 'Chắc Ai Đó Sẽ Về',
+        singer: 'Sơn Tùng MTP',
+        path: './assets/music/song8.mp3',
+        img: './assets/img/img8.jpg'
+    }, 
+    {
+        name: 'Trả Lại Thanh Xuân Cho Em',
+        singer: 'H2K',
+        path: './assets/music/song9.mp3',
+        img: './assets/img/img9.jpeg'
+    },
+    {
+        name: 'Ba Kiếp Tình Một Kiếp Duyên',
+        singer: 'Lâm Tuấn ',
+        path: './assets/music/song10.mp3',
+        img: './assets/img/img10.jpg'
+    },
+    {
+        name: 'Nơi Này Có Anh ',
+        singer: 'Sơn Tùng MTP',
+        path: './assets/music/song11.mp3',
+        img: './assets/img/img11.jpg'
+    },
+    {
+        name: 'Em Ơi Anh Phải Làm Sao ',
+        singer: 'Dương Minh Tuấn x DC Tâm',
+        path: './assets/music/song12.mp3',
+        img: './assets/img/img12.jpg'
+    },
+    {
+        name: 'Đừng Làm Trái Tim Anh Đau ',
+        singer: 'Sơn Tùng MTP',
+        path: './assets/music/song13.mp3',
+        img: './assets/img/img13.jpg'
+    }
+],
    render: function () {
     const htmls = this.song.map(function (song,index) { 
         return `
